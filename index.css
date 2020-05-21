@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bubblegum+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bubblegum+Sans&family=Erica+One&family=Kenia&family=Oswald:wght@500&display=swap");
+
+body {
+  background-image: linear-gradient(
+      rgba(52, 73, 94, 0.6),
+      rgba(44, 62, 80, 0.6)
+    ),
+    url(bg3.jpeg);
+  padding: 0;
+  margin: 0;
+  /* background-repeat: repeat-x; */
+}
+
+.companyName {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.companyName h3 {
+  margin: 0;
+  border: 0;
+  font-size: 30px;
+  color: rgba(236, 240, 241, 1);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+sup {
+  font-size: 9px;
+}
+
+.inputs {
+  width: 374px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: rgba(46, 204, 113, 0.3);
+}
+
+#length,
+#breadth,
+#height,
+#volume::placeholder {
+  text-align: center;
+  font-style: italic;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+#length,
+#breadth,
+#height,
+#volume {
+  width: 96%;
+  height: 15%;
+}
+
+#volume {
+  height: 27%;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  height: 40px;
+
+  /* background-color: black; */
+}
+
+button {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+}
+
+.resultC {
+  height: 263px;
+  background-color: rgba(44, 62, 80, 0.8);
+  z-index: -1;
+}
+
+#result {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#result h3 {
+  padding: 0;
+  margin-bottom: 0px;
+  font-family: "Anton", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.details {
+  width: 90%;
+  font-family: "Bubblegum Sans", cursive;
+  line-height: 170%;
+  font-size: 18px;
+  position: relative;
+  background-color: transparent;
+}
+
+.detailBtns {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+#formula124,
+#formula134,
+#formula136 {
+  height: 45px;
+  width: 33.3333%;
+}
+
+.FormulaSpan {
+  font-size: 25px;
+  color: #bdc3c7;
+}
